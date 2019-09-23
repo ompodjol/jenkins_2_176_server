@@ -1,0 +1,16 @@
+ReadMe
+
+To install Jenkins:
+$java -jar jenkins-2.176-1.war --httpPort=1961
+
+*You can specify you own port number.
+*You can manage users in the manage jenkins.
+
+After Jenkins run. Copy the plugins files *.hpi to .jenkins/plugins directory to enable pipeline, multibranch plugins. It needs Jenkins restart.
+
+Thanks,
+Jolly and Roger
+
+2019_08_01
+
+
