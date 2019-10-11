@@ -1,24 +1,24 @@
 ReadMe
 
+One if not the easiest way of installing Jenkins server on your linux machine.
 
-To download Jenkins-2.176-1.war:
+Steps below:
+
+1. Download Jenkins-2.176-1.war:
 http://repo.jenkins-ci.org/releases/org/jenkins-ci/main/jenkins-war/2.176.1/
 
 
-To install Jenkins:
+2.Install Jenkins using war file and specifying port:
 $java -jar jenkins-2.176-1.war --httpPort=1961
 
-*You can specify you own port number.
-*You can manage users in the manage jenkins.
+*note remember or copy temporary password for admin user to be used for first login.
 
-After Jenkins run. Copy the plugins files *.hpi to .jenkins/plugins directory to enable pipeline, multibranch plugins. It needs Jenkins restart.
+Attached are necessary plugins to support multibranch, *jenkinsfile, pipeline jobs. 
+3. After Jenkins server installed. Copy the plugins files *.hpi to .jenkins/plugins directory to enable pipeline, multibranch plugins.
+4. Restart Jenkins. sample: do it in the browser. {(jenkins_url)/restart} or http://localhost:8080/restart
 
-Then, in the browser:
-http://localhost:1961 or http:xxx.xxx.xxx.xx:xxxx
+Login:
+3. http://localhost:1961 or http:xxx.xxx.xxx.xx:xxxx
 
-done:
-
-
-2019_08_01
-
+/end
 
