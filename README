@@ -9,6 +9,7 @@ http://repo.jenkins-ci.org/releases/org/jenkins-ci/main/jenkins-war/2.176.1/
 
 2. Set JENKINS_HOME
 export JENKINS_HOME=<DIRECTORY WHERE YOU WANT TO PUT JENKINS JOBS OR WORKSPACE>
+e.i. JENKINS_HOME=/home/user/jenkins
 
 3.Install Jenkins using war file and specifying port:
 $java -jar jenkins-2.176-1.war --httpPort=1961
@@ -17,7 +18,7 @@ $java -jar jenkins-2.176-1.war --httpPort=1961
 
 Attached are necessary plugins to support multibranch, *jenkinsfile, pipeline jobs. 
 3. After Jenkins server installed. Copy the plugins files *.hpi to .jenkins/plugins directory to enable pipeline, multibranch plugins.
-4. Restart Jenkins. sample: do it in the browser. {(jenkins_url)/restart} or http://localhost:8080/restart
+4. Restart Jenkins. sample: do it in the browser. {(jenkins_url)/restart} or http://localhost:8080/restart or http://localhost:1961/restart
 
 Login:
 3. http://localhost:1961 or http:xxx.xxx.xxx.xx:xxxx
