@@ -23,5 +23,10 @@ Attached are necessary plugins to support multibranch, *jenkinsfile, pipeline jo
 Login:
 3. http://localhost:1961 or http:xxx.xxx.xxx.xx:xxxx
 
+
+Using macOS to restart java if it fails do this...
+
+java -jar *tar.war* --enable-future-java restart
+
 /end
 
